@@ -1,0 +1,8 @@
+# Ignore all Windows executables (case-insensitive)
+# Matches: file.exe, FILE.EXE, File.ExE, etc.
+*.[Ee][Xx][Ee]
+
+# If executables are already tracked, remove them from the index with:
+#   git rm --cached <path/to/file.exe>
+# or to remove all tracked .exe files and keep them locally:
+#   git rm --cached -r "*.exe"
